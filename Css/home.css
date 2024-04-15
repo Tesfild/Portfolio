@@ -1,0 +1,217 @@
+#home {
+    display: flex;
+    min-height: calc(100vh - 136px); 
+    
+}
+
+#cta {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 8%;
+    z-index: 2;
+}
+
+#cta2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 8%;
+    margin-left: 150px;
+    z-index: 2;
+}
+
+#MyIcon {
+    width: 80px;
+    height: auto;
+}
+
+#cta .ctah1 {
+    font-family: Cabin;
+    font-size: 4.5rem;
+    margin-top: 12px;
+    color: #070707;
+     
+}
+
+#cta .ctah1 .h1span {
+    color: #513b3c;
+}
+
+#cta2 .ctah3 {
+    font-family: Cabin;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+#cta2 .ctah3 .h3span {
+    color: #513b3c;
+    font-weight: 700;
+}
+
+#cta2 .cta2p {
+    font-family: Cabin;
+    font-size: 1rem;
+    opacity: 65%;
+}
+
+#ctabuttons {
+    display: flex;
+    gap: 12px;
+}
+
+.BtnSocial {
+    display: flex;
+    gap: 12px;
+    
+}
+
+.BtnSocial a {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #513b3c;
+    border-radius: 8px;
+    padding: 10px 12px;
+    box-shadow: 0px 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color .3s ease;
+    text-decoration: none;
+}
+
+.BtnSocial a i {
+    color: #fefffe;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.BtnSocial a:hover {
+    background-color: #9A7476;
+}
+
+#cta2Mobile {
+    display: none;
+}
+
+#about-shape{
+    background-color: #513b3c;    
+    opacity: 20%;
+    width: 48%;
+    height: 95%;
+    position: absolute;
+    border-radius: 50% 800% 20% 20%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+} 
+
+
+
+@media screen and (max-width: 770px) {
+
+    #cta {
+        width: 100%;
+        display: flex;
+    }
+
+    #MyIcon {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+ 
+    #cta .ctah1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+         
+    }
+    
+    #cta .ctah1 .h1span {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #cta2 {
+        display: none;
+    }
+
+    #cta2Mobile {
+        display: block;
+        padding: 28px 8%;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    #cta2Mobile .ctah3 {
+        font-family: Cabin;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    
+    #cta2Mobile .ctah3 .h3span {
+        color: #513b3c;
+        font-weight: 700;
+    }
+    
+    #cta2Mobile .cta2p {
+        font-family: Cabin;
+        font-size: 1rem;
+        margin-top: 20px;
+        opacity: 65%;
+    }
+
+    #cta2Mobile #ctabuttons {
+        display: flex;
+        gap: 12px;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #cta2Mobile .BtnSocial {
+        display: flex;
+        gap: 12px;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    #cta2Mobile .BtnSocial a {
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #513b3c;
+        border-radius: 8px;
+        padding: 10px 12px;
+        box-shadow: 0px 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: background-color .3s ease;
+        text-decoration: none;
+    }
+    
+    #cta2Mobile .BtnSocial a i {
+        color: #fefffe;
+        font-size: 1rem;
+        text-decoration: none;
+    }
+    
+    #cta2Mobile .BtnSocial a:hover {
+        background-color: #9A7476;
+    }
+   
+}

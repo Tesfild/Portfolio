@@ -1,0 +1,75 @@
+#skills {
+    display: flex;
+    min-height: calc(80vh - 136px);
+    background: linear-gradient(to right, #513b3c, #6f5052);
+    gap: 28px;
+    height: 85vh;
+    padding: 0px 0%;
+    
+}
+
+#know {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 3%;
+    
+}
+
+.ukh3 {
+    font-family: Cabin;
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    text-align: center;
+}
+
+#unknow {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 3%;
+}
+
+.ukItems {
+    display: grid;
+    grid-template-columns: 50px 50px;
+    gap: 40px;
+    margin-top: 8%;
+    
+}
+
+.ukItems .ukBrand {
+    gap: 40px;
+}
+
+.ukItems .ukBrand i {
+    background-color: #fefffe;
+    border-radius: 2px;
+    padding: 10px 12px;
+    color: #513b3c;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.ukItems .ukBrand h6 {
+    font-family: Cabin_Italic;
+    font-weight: 900;
+    color: #fefffe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.0rem;
+    margin-top: 9px;
+    text-align: center;
+    
+    
+}

@@ -1,0 +1,128 @@
+#me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: calc(50vh - 136px);
+    height: 50vh;
+}
+
+#meTitle .meh3 {
+    font-family: Cabin_Italic;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+#meTitle .meh2 {
+    font-family: Cabin;
+    font-size: 3.5rem;
+    margin-bottom: 28px;
+    font-weight: 800;
+    
+}
+
+#meTitle .meh2 span {
+    color: #513b3c;
+}
+
+#footerbuttons {
+    margin-bottom: 28px;
+}
+
+.footersocial  {
+    display: flex;
+    gap: 12px;
+}
+
+.footersocial a {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #513b3c;
+    border-radius: 8px;
+    padding: 10px 12px;
+    box-shadow: 0px 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color .3s ease;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+.footersocial a i {
+    color: #fefffe;
+    font-size: 1rem;
+    text-decoration: none;
+    
+}
+
+.footersocial a:hover {
+    background-color: #9A7476;
+}
+
+#footer {
+    width: 100%;
+    padding: 28px 8%;
+    background-color: #513b3c;
+}
+
+#footerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footerList {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    
+}
+
+.footerItem a {
+    text-decoration: none;
+    font-family: Cabin;
+    color: #fefffe;
+    font-weight: 600;
+}
+
+#copyright #dev .dev {
+    font-family: Cabin;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #070707;
+    word-spacing: 2px;
+}
+
+#copyright #dev .dev a {
+    text-decoration: none;
+    color: #513b3c;
+    
+}
+
+@media screen and (max-width: 1170px) {
+
+
+    #footerIcon {
+       width: 70px;
+    }
+
+
+    
+    #footerList {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0px;
+
+    }
+
+    #footerList .footerItem {
+        list-style: none;
+        text-align: center;
+    }
+}

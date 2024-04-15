@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Cabin;
+    src: url(Fonte/Cabin/Cabin-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: Cabin_Italic;
+    src: url(Fonte/Cabin/Cabin-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+body {
+    background-color: #fefffe;
+    height: 400vh;
+}
+
+section {
+    padding: 28px 8%;
+}
+
+.BtnDefault {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #513b3c;
+    border-radius: 8px;
+    padding: 12px 16px;
+    box-shadow: 0px 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.BtnDefault a {
+    text-decoration: none;
+    color: #fefffe;
+    transition: background-color .3s ease;
+    font-weight: 600;
+    font-family: Cabin;
+}
+
+.BtnDefault:hover {
+    background-color: #9A7476;
+}
